@@ -1,0 +1,547 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EBECEC !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Started Header */
+
+header {
+    position: relative;
+}
+
+.first-hd {
+    background: #363636;
+    /* height: 34px; */
+    padding: 0;
+    font: normal 12px Gotham;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+
+.center {
+    margin: auto;
+    position: relative;
+}
+
+.width {
+    width: 1000px !important;
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix:before {
+    display: table;
+    content: '';
+}
+
+.langActive {
+    background-color: #5A5A5A;
+}
+
+.lang {
+    float: left;
+    padding: 2px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+header .btns {
+    float: right;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+header .btns a {
+    background: #5A5A5A;
+    padding: 8px 5px;
+    font: normal 12px Gotham;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    color: white;
+    width: 108px;
+    text-align: center;
+    box-shadow: 1px 1px 7px #000;
+}
+
+.wrc_icon.wrc1 {
+    background: url(chrome-extension://gomekmidlodglbbmalcneegieacbdmki/common/ui/icons/serp-icon-all-ok.svg);
+}
+
+.wrc1 {
+    display: none;
+}
+
+.wrc_icon {
+    margin-left: 10px;
+    position: absolute;
+    width: 24px ;
+    height: 16px;
+    background-size: contain;
+    top: 3px;  
+}
+
+header .btns a.btn2 {
+    background: #fecf36;
+    color: #373737;
+}
+
+.first-hd .message {
+    display: inline-block;
+    float: right;
+    margin: 10px 70px 0 0;
+    width: 520px; 
+}
+
+.clearfix:after {
+    font-size: 1px;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* Started Second */
+
+.second-hd {
+    background: #fff;
+    height: 90px;
+}
+
+header .logo {
+   display: inline-block;
+   width: 300px;
+   margin: 15px 0 0 0;
+   float: left;
+}
+
+
+.sh-right {
+    margin: 19px 0 0 0;
+}
+
+.sh-right {
+    display: block;
+    float: right;
+}
+
+.sh-right a {
+    display: block;
+    float: left;
+}
+
+/* Started Menu */
+
+header nav.menu {
+    background: #0159a4;
+    z-index: 2;
+    position: relative;
+    height: 41px;
+    margin: 0;
+} 
+
+header nav.menu > ul {
+    top: 4px;
+}
+
+header nav.menu > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-top: -2px;
+}
+
+header nav.menu ul li a {
+    float: left;
+    padding: 7px 16px 7px 16px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif !important;
+    border-right: 1px solid #0068a8;
+    font: normal 14px Gotham;
+}
+
+header nav.menu ul li a:hover, header nav.menu ul li a.active {
+    background-color: #0068a8;
+    color: white;
+}
+
+/* Started Block */
+
+.src-block {
+    height: 165px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/src-blck-bg.png) repeat-x;
+}
+
+.sb-bg {
+    height: 175px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/src-blck-bg2.png) repeat-x;
+}
+
+.src-kyws {
+    width: 825px;
+    margin: 0 auto 0 auto;
+    font: italic 14px Gotham;
+    color: #fff;
+    padding-top: 35px;
+}
+
+.src {
+    position: relative;
+    width: 825px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+span.twitter-typeahead {
+    width: 100%;
+}
+
+.src input {
+    width: 820px;
+    height: 47px;
+    padding: 0 45px 0 30px;
+    font: italic 16px Gotham;
+    font-family: 'Open Sans', sans-serif;
+    color: #838383;
+    background: url(https://www.e-gov.az/ContentNew/Pics/src-bg.png);
+    border: 0;
+}
+
+.src button {
+    width: 21px;
+    height: 21px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/lupa.png) no-repeat;
+    position: absolute;
+    right: 12px;
+    top: 35px;
+    border: 0;
+}
+
+/* Header THE END */
+
+
+/* Started Menu */
+
+.content {
+    padding-bottom: 50px;
+    background: #EBECEC;
+}
+
+.main-block {
+    background: #fff;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 3px 8px #e0e0e0;
+    position: relative;
+}
+
+.tab-titles {
+    background: #e3e3e3;
+    margin-bottom: 20px;
+}
+
+.tab-titles a:hover, .tab-titles a.active {
+    background: #fff;
+    text-decoration: none;
+}
+
+.tab-titles a {
+    color: #000;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: 500;
+}
+
+.tab-content ul.e-services li {
+    float: left;
+    width: 280px;
+    margin: 15px 20px 10px 30px;
+    min-height: 100px;
+}
+
+.tab-content ul.e-services li a {
+    color: #535353;
+}
+
+.tab-content ul.e-services li .pic {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 9px;
+}
+
+.tab-content ul.e-services li figure {
+    background: #f3f3f3;
+    width: 90px;
+    height: 90px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+}
+
+figure {
+    margin: 0;
+}
+
+div[class^="bg-"] {
+    margin: 0 auto;
+}
+
+.bg-1023 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -80px -10px;
+}
+
+.tab-content ul.e-services li span.es-title {
+    font: 500 12px Gotham;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    float: left;
+    width: 170px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.tab-content ul.e-services li span.es-desc {
+    font: normal 12px Gotham;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    float: left;
+    color: #535353;
+    width: 170px;
+    margin: 5px 0 0 0;
+    line-height: 15px;
+    height: 46px;
+    overflow: hidden;
+}
+
+.bg-1023 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -80px -10px;
+}
+
+.bg-1024 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -80px -150px;
+}
+
+.bg-1026 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -10px -80px;
+}
+
+.bg-1032 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -150px -150px;
+}
+
+
+
+.bg-1029 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -150px -80px;
+}
+
+.bg-1030 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -10px -150px;
+}
+
+.bg-1031 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -10px -10px;
+}
+
+.bg-1038 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -150px -220px;
+}
+
+.bg-1036 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -10px -220px;
+}
+
+.bg-1037 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png) -80px -220px;
+}
+
+.bg-1035 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png)  -220px -150px;
+}
+
+.bg-1033 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png)  -220px -10px;
+}
+
+.bg-1027 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png)  -80px -80px;
+}
+
+.bg-1028 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png)  -150px -10px;
+}
+
+.bg-1027 {
+    width: 50px;
+    height: 50px;
+    background: url(https://www.e-gov.az/ContentNew/Pics/grey_service_sprite_new.png)  -80px -80px;
+}
+
+.favorite-services li {
+    margin: 10px 50px 0 50px;
+    display: initial;
+    overflow: initial;
+    text-overflow: initial;
+    height: 70px;
+}
+
+.favorite-services li {
+    width: 355px;
+    float: left;
+    font: normal 13px Gotham;
+}
+
+.favorite-services li a {
+    color: #000;
+    text-decoration: none;
+}
+#tab1:hover .tab-content.tab1 {
+    display: block;
+}
+.favorite-services li a figure {
+    float: left;
+    margin-right: 30px;
+    height: 40px;
+    width: 60px;
+}
+
+.favorite-services li a figure span {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    width: inherit;
+    text-align: center;
+}
+
+/* Devamini edecem after */
+
+/* Footer Started */
+
+footer {
+    background: #FFFFFF !important;
+    padding: 20px 0 0 0;
+}
+
+.foo-custom {
+    margin-top: 10px;
+}
+
+.foo-block {
+    /* width: 285px; */
+    float: left;
+    margin-right: 60px;
+}
+
+.foo-block a {
+    display: inline-block;
+    margin: 0 5px 10px 0;
+}
+
+.foo-block p.adress {
+    margin: 0 0 30px 0;
+}
+
+.foo-block p.adress img {
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.foo-block p.adress span {
+    width: 220px;
+    float: left;
+    font: normal 13px Gotham;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* The end Footer */
+
+/* Started Bottom */
+
+.foo-bottom-line {
+    background: #0073b9;
+    padding: 20px 0;
+    height: 60px;
+}
+
+.copyright {
+    text-align: center;
+    text-shadow: 0 2px rgba(255,255,255,0.1);
+    color: white;
+}
+
+.certs {
+    float: right;
+    margin-top: -9px;
+}
+
+/* The End Bottom */
+/* The End My Seyfe  */
